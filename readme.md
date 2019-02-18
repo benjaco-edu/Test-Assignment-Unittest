@@ -4,7 +4,7 @@ Dependencies are handled with maven
 
 Run the test as you are used to (sorry for bad instruction, is not used to java)
 
-The bankInterestRateTest can be run with `mvn test`
+Only the bankInterestRateTest can be run with `mvn test`
 
 All the excises should be in place
 

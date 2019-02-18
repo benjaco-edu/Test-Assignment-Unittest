@@ -45,7 +45,12 @@ class otherTests {
                     assertTrue(true);
 
                 }),
-                () -> assertDoesNotThrow(this::random)
+                () -> assertDoesNotThrow(this::random),
+                () -> assertEquals("Test string", "Not test string", ()-> {
+                    System.out.println("The strings does not match");
+                    return "The strings does not match";
+                });
+    
         );
 
 

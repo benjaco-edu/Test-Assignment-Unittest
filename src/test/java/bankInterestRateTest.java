@@ -1,6 +1,7 @@
 import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+
 
 public class bankInterestRateTest {
 
@@ -11,7 +12,7 @@ public class bankInterestRateTest {
 
         double interestRate = BankInterestRate.calculateYearlyInterest(account);
 
-        assertEquals(0, interestRate);
+        assertEquals(0, interestRate, 0.0001);
     }
 
     @Test
@@ -21,7 +22,7 @@ public class bankInterestRateTest {
 
         double interestRate = BankInterestRate.calculateYearlyInterest(account);
 
-        assertEquals(3, interestRate);
+        assertEquals(3, interestRate, 0.0001);
     }
 
     @Test
@@ -31,7 +32,7 @@ public class bankInterestRateTest {
 
         double interestRate = BankInterestRate.calculateYearlyInterest(account);
 
-        assertEquals(3, interestRate);
+        assertEquals(3, interestRate, 0.0001);
     }
 
     @Test
@@ -41,7 +42,7 @@ public class bankInterestRateTest {
 
         double interestRate = BankInterestRate.calculateYearlyInterest(account);
 
-        assertEquals(3, interestRate);
+        assertEquals(3, interestRate, 0.0001);
     }
 
     @Test
@@ -51,7 +52,7 @@ public class bankInterestRateTest {
 
         double interestRate = BankInterestRate.calculateYearlyInterest(account);
 
-        assertEquals(3, interestRate);
+        assertEquals(3, interestRate, 0.0001);
     }
 
     @Test
@@ -61,7 +62,7 @@ public class bankInterestRateTest {
 
         double interestRate = BankInterestRate.calculateYearlyInterest(account);
 
-        assertEquals(5, interestRate);
+        assertEquals(5, interestRate, 0.0001);
     }
 
     @Test
@@ -71,7 +72,7 @@ public class bankInterestRateTest {
 
         double interestRate = BankInterestRate.calculateYearlyInterest(account);
 
-        assertEquals(5, interestRate);
+        assertEquals(5, interestRate, 0.0001);
     }
 
     @Test
@@ -81,7 +82,7 @@ public class bankInterestRateTest {
 
         double interestRate = BankInterestRate.calculateYearlyInterest(account);
 
-        assertEquals(5, interestRate);
+        assertEquals(5, interestRate, 0.0001);
     }
 
     @Test
@@ -91,7 +92,7 @@ public class bankInterestRateTest {
 
         double interestRate = BankInterestRate.calculateYearlyInterest(account);
 
-        assertEquals(7, interestRate);
+        assertEquals(7, interestRate, 0.0001);
     }
 
 
